@@ -1140,4 +1140,54 @@ h4 {
 	margin: 0;
 }
 
+	
+.contactcontainer {
+	width: 300px;
+	height: 500px;
+	border-radius: 20px;
+	background: linear-gradient(
+		360deg,
+		hsla(212, 68%, 61%, 1) 0%,
+		hsla(240, 23%, 73%, 1) 36%,
+		hsla(0, 0%, 100%, 1) 100%
+	);
+	display: flex;
+	flex-wrap: wrap;
+	color: black;
+
+}
+
+.contactcontainer img {
+	width: 10px;
+	height: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 25px;
+}
+
+.contactbox {
+	width: 400px;
+
+	/* justify-content: center;
+	justify-items: center; */
+}
+.contactbox h5 {
+	margin: 0;
+	font-size: 15px;
+}
+
+.boxcontact {
+	width: 30px;
+	height: 700px;
+	overflow: hidden;
+	padding: 10px 158px;
+	justify-content: center;
+	display: flex;
+}
+
+#title {
+	font-size: 20px;
+	margin: 0;
+}
+
 }
