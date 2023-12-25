@@ -1440,6 +1440,15 @@ h4 {
       h4{
         font-size: 20px;
       }
+
+	
+.blogmenu {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	height: 1800px;
+	background-color: #caf0f8;
+}
     
 }
 
