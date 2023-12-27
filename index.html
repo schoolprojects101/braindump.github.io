@@ -1,47 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="icon" href="favicon.ico" type="image/x-icon" />
-
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<title>Brain Dump Blog</title>
-		<link rel="stylesheet" href="index.css" />
+		<link rel="icon" href="favicon.ico" type="image/x-icon" />
 		<script
 			src="https://kit.fontawesome.com/02aca69030.js"
 			crossorigin="anonymous"></script>
-		<link
-			rel="stylesheet"
-			href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" />
-
 		<script src="index.js"></script>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+			crossorigin="anonymous" />
+		<link rel="stylesheet" href="index.css" />
 	</head>
 	<body>
-		<div class="navbar">
-			<a href="index.html"
-				><img src="images/BRAIN DUMP BLOG.png"
-			/></a>
-			<ul>
-				<li><a href="contactUs.html">Contact Us</a></li>
-				<li><a href="about.html">About</a></li>
-				<li><a href="index.html">Home</a></li>
-			</ul>
-		</div>
-
-		<div class="mainpic">
-			<br />
-			<h4>Unwind.Reconnect.Thrive</h4>
-			<h2><b>Where thoughts take flight.</b></h2>
-			<h4>Brain Dump: Unleash your mind. Explore everything.</h4>
-		</div>
-
-		<hr />
-		<div class="blogmenu">
-			<div class="first" id="blogYou">
-				<div id="pictures">
-					<img src="images/rjay1.jpg" />
+		<nav class="navbar navbar-expand-sm">
+			<div class="container-fluid">
+				<!-- Links -->
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link" href="#">
+							<img src="images/BRAIN DUMP BLOG.png" id="logo" />
+						</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="index.html">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="about.html">About</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="contactUs.html">Contact Us</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-12" id="mainpic">
+					<h4>Unwind.Reconnect.Thrive</h4>
+					<h2><b>Where thoughts take flight.</b></h2>
+					<h4>Brain Dump: Unleash your mind. Explore everything.</h4>
 				</div>
-				<div class="reactionbuttons">
+			</div>
+			<div class="row">
+				<div class="col-lg-4 col-md-6 col-sm-12">
+					<img src="images/rjay1.jpg" id="blogpic" />
+
 					<button onclick="buttonClick(this)" id="btnLike" class="btn">
 						<i class="fa-solid fa-thumbs-up"></i>
 					</button>
@@ -57,9 +65,7 @@
 					<button onclick="buttonClick(this)" id="btnAngry" class="btn">
 						<i class="fas fa-face-angry"></i>
 					</button>
-				</div>
-				<div class="desc1" id="description">
-					<h4>
+					<h4 class="blogti">
 						<b
 							>Discovering the Sacred Legacy of San Roque Parish in Cordova,
 							Cebu</b
@@ -75,18 +81,15 @@
 						<span id="dots">...</span
 						><span id="more"
 							>exploration of our proud municipality—a locale where history,
-							community bonds, and progress seamlessly converge, creating a
-							unique narrative that defines Cordova.</span
-						>
+							community bonds,
+						</span>
 					</h6>
 					<button id="myBtn">
 						<a href="rjay.html" target="_blank">Read more</a>
 					</button>
 				</div>
-			</div>
-			<div class="second" id="blogYou">
-				<div id="pictures"><img src="images/jaymar1.jpg" /></div>
-				<div class="reactionbuttons">
+				<div class="col-lg-4 col-md-6 col-sm-12">
+					<img src="images/jaymar1.jpg" id="blogpic" />
 					<button onclick="buttonClick(this)" id="btnLike" class="btn">
 						<i class="fa-solid fa-thumbs-up"></i>
 					</button>
@@ -102,9 +105,7 @@
 					<button onclick="buttonClick(this)" id="btnAngry" class="btn">
 						<i class="fas fa-face-angry"></i>
 					</button>
-				</div>
-				<div class="desc1" id="description">
-					<h4>
+					<h4 class="blogti">
 						<b
 							>10, 00 Roses: Where Artificial Elegance Meets Natural Splendor in
 							Cordova, Cebu</b
@@ -116,21 +117,14 @@
 						establishment that has swiftly become the talk of the town in Cebu.
 						With its Korean-inspired charm and unique allure, this café has not
 						only piqued the <span id="dots">...</span
-						><span id="more"
-							>has also emerged as a sought-after destination, generating a buzz
-							that resonates across various social media platforms.</span
-						>
+						><span id="more">has also</span>
 					</h6>
 					<button id="myBtn">
 						<a href="jaymar.html" target="_blank">Read more</a>
 					</button>
 				</div>
-			</div>
-			<div class="third" id="blogYou">
-				<div id="pictures">
-					<img src="images/lurenz1.jpg" />
-				</div>
-				<div class="reactionbuttons">
+				<div class="col-lg-4 col-md-6 col-sm-12">
+					<img src="images/lurenz1.jpg" id="blogpic" />
 					<button onclick="buttonClick(this)" id="btnLike" class="btn">
 						<i class="fa-solid fa-thumbs-up"></i>
 					</button>
@@ -146,9 +140,7 @@
 					<button onclick="buttonClick(this)" id="btnAngry" class="btn">
 						<i class="fas fa-face-angry"></i>
 					</button>
-				</div>
-				<div class="desc1" id="description">
-					<h4>
+					<h4 class="blogti">
 						<b>Bakasihan: Unveiling the Treasures of Cordova, Cebu</b>
 					</h4>
 					<h5>BY: Lurenz B. Arain</h5>
@@ -166,12 +158,9 @@
 						<a href="lurenz.html" target="_blank">Read more</a>
 					</button>
 				</div>
-			</div>
-			<div class="fourth" id="blogYou">
-				<div id="pictures">
-					<img src="images/kenneth1.jpg" />
-				</div>
-				<div class="reactionbuttons">
+				<div class="col-lg-4 col-md-6 col-sm-12">
+					<img src="images/kenneth1.jpg" id="blogpic" />
+
 					<button onclick="buttonClick(this)" id="btnLike" class="btn">
 						<i class="fa-solid fa-thumbs-up"></i>
 					</button>
@@ -187,9 +176,7 @@
 					<button onclick="buttonClick(this)" id="btnAngry" class="btn">
 						<i class="fas fa-face-angry"></i>
 					</button>
-				</div>
-				<div class="desc1" id="description">
-					<h4>
+					<h4 class="blogti">
 						<b
 							>Charms of Lantaw Native Restaurant: An Expedition into Culinary
 							Delights</b
@@ -203,21 +190,15 @@
 						the heart of Cordova, Cebu. <span id="dots">...</span
 						><span id="more"
 							>Tucked conveniently in Cordova, Lantaw serves as a welcoming
-							escape from the hustle and bustle of Cebu City, making it a
-							must-visit for locals seeking culinary adventures and travelers
-							exploring the rich offerings of the area.</span
-						>
+							escape from the hustle
+						</span>
 					</h6>
-					<button onclick="kenneth()" id="myBtn">
+					<button id="myBtn">
 						<a href="kenneth.html" target="_blank">Read more</a>
 					</button>
 				</div>
-			</div>
-			<div class="fifth" id="blogYou">
-				<div id="pictures">
-					<img src="images/vin2.png" alt="munisipyo" />
-				</div>
-				<div class="reactionbuttons">
+				<div class="col-lg-4 col-md-6 col-sm-12">
+					<img src="images/vin1.png" id="blogpic" />
 					<button onclick="buttonClick(this)" id="btnLike" class="btn">
 						<i class="fa-solid fa-thumbs-up"></i>
 					</button>
@@ -233,9 +214,7 @@
 					<button onclick="buttonClick(this)" id="btnAngry" class="btn">
 						<i class="fas fa-face-angry"></i>
 					</button>
-				</div>
-				<div class="desc1" id="description">
-					<h4>
+					<h4 class="blogti">
 						<b
 							>Navigating Cordova's Narrative: Chronicles of Harmony in History,
 							Community, and Progress</b
@@ -249,23 +228,15 @@
 						spirit. In this blog, I take you on a<span id="dots">...</span
 						><span id="more"
 							>captivating exploration of our proud municipality—a locale where
-							history, community bonds, and progress seamlessly converge,
-							creating a unique narrative that defines Cordova.</span
+							history, community bonds,</span
 						>
 					</h6>
 					<button id="myBtn">
 						<a href="vincent.html" target="_blank">Read more</a>
 					</button>
 				</div>
-			</div>
-
-			<div class="sixth" id="blogYou">
-				<div class="pic6" id="pictures">
-					<div id="pictures">
-						<img src="images/sam1.jpg" />
-					</div>
-				</div>
-				<div class="reactionbuttons">
+				<div class="col-lg-4 col-md-6 col-sm-12">
+					<img src="images/sam1.jpg" id="blogpic" />
 					<button onclick="buttonClick(this)" id="btnLike" class="btn">
 						<i class="fa-solid fa-thumbs-up"></i>
 					</button>
@@ -281,20 +252,18 @@
 					<button onclick="buttonClick(this)" id="btnAngry" class="btn">
 						<i class="fas fa-face-angry"></i>
 					</button>
-				</div>
-				<div class="desc1" id="description">
-					<h4>
+					<h4 class="blogti">
 						<b
 							>Festive Glow: Beyond Decorations, Filipino Schools Ignite the
 							Christmas Spirit Through Tradition</b
 						>
 					</h4>
+
 					<h5>BY: Jessa Mae V. Jumao-as</h5>
 					<h6>
 						As the cool breeze ushers in the month of December, a magical
 						transformation takes place across the Philippines. From Luzon to
-						Mindanao, schools become vibrant canvases of light and color, as 0
-						educators and students join hands in designing their insti<span
+						Mindanao, schools become vibrant canvases of light and color<span
 							id="dots"
 							>...</span
 						><span id="more"
@@ -303,17 +272,15 @@
 						>
 					</h6>
 					<button id="myBtn">
-						<a href="sam.html" target="_blank">Read more</a>
+						<a href="lurenz.html" target="_blank">Read more</a>
 					</button>
 				</div>
 			</div>
 		</div>
+		<footer>
+			<div class="finale">
+				<p>Copyright © 2023 Brain Dump - Unleash your thoughts.</p>
+			</div>
+		</footer>
 	</body>
-	<hr />
-	<hr />
-	<footer>
-		<div class="finale">
-			<p>Copyright © 2023 Brain Dump - Unleash your thoughts.</p>
-		</div>
-	</footer>
 </html>
