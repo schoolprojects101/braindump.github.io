@@ -117,8 +117,8 @@ footer {
 	border-radius: 5px;
 }
 
-#uspic {
-	width: 600px;
+#uspic img {
+	width: 100vw;
 	height: 300px;
 	margin: 30px;
 	
