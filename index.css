@@ -105,9 +105,9 @@ footer {
 }
 
 #aboutpicw {
-	width: 400px;
+	width: 100vw;
 	height: 300px;
-	margin: 30px;
+	margin: 1px;
 	background: linear-gradient(
 		360deg,
 		hsla(212, 68%, 61%, 1) 0%,
@@ -140,9 +140,9 @@ footer {
 }
 
 #vblogpic1 {
-	width: 36vw;
-	height: 350px;
-	margin: 10px;
+	width: 100vw;
+	height: 300px;
+	margin: 1px;
 	border-radius: 20px;
 }
 
