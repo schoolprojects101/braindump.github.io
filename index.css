@@ -117,10 +117,10 @@ footer {
 	border-radius: 5px;
 }
 
-#uspic img {
+#uspic {
 	width: 100vw;
 	height: 300px;
-	margin: 30px;
+	margin: 1px;
 	
 }
 .media {
