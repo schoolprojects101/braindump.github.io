@@ -51,7 +51,7 @@ h4 {
 
 #blogpic {
 	height: 300px;
-	width: 100%;
+	width: 80%;
 	margin: 10px;
 }
 
@@ -147,7 +147,7 @@ footer {
 }
 
 .blogmini {
-	width: 30vw;
+	width: 70vw;
 	height: 200px;
 	border-radius: 5px;
 	margin: 10px;
@@ -206,6 +206,38 @@ footer {
 	margin: 1px;
 	
 }
+
+
+
+
+h2 {
+	font-size: 45px;
+}
+
+
+h4 {
+	font-size: 15px;
+}
+
+	
+#blogpic {
+	height: 300px;
+	width: 93%;
+	margin: 10px;
+}
+
+	#myBtn {
+	margin: 10px 16px;
+}
+.blogmini {
+	width: 80vw;
+	height: 200px;
+	border-radius: 5px;
+	margin: 10px;
+	font-style: bold;
+}
+
+	
 	
 }
 
