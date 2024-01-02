@@ -220,9 +220,18 @@ h4 {
 }
 
 
-	#myBtn {
+#myBtn {
 	margin: 10px 16px;
 }
+
+.blogmini {
+	width: 70vw;
+	height: 200px;
+	border-radius: 5px;
+	margin: 10px;
+	font-style: bold;
+}
+
 
 
 	
