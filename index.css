@@ -58,11 +58,11 @@ h4 {
 .btn {
 	height: 40px;
 	width: 40px;
-	margin: 0 0 0 35px;
+	margin: 0 0 0 3px;
 }
 
 #myBtn {
-	margin: 10px 165px;
+	margin: 10px 16px;
 }
 
 .blogti {
@@ -180,8 +180,8 @@ footer {
 
 @media only screen and (max-width: 762px) {
 #vblogpic1 {
-	width: 100vw;
-	height: 400px;
+	width: 95vw;
+	height: 350px;
 	margin: 1px;
 	border-radius: 20px;
 }
@@ -219,10 +219,6 @@ h4 {
 	font-size: 15px;
 }
 
-
-#myBtn {
-	margin: 10px 16px;
-}
 
 .blogmini {
 	width: 70vw;
